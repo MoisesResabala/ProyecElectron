@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dojo Electron</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <h1>Dojo Electron</h1>
+
+    <form>
+
+        <label>Nombre del Documento</label>
+        <input id="fileName" type="text" class="form-control">
+
+
+        <label>Texto</label>
+        <textarea id="fileContents" class="form-control" rows="5"></textarea>
+
+    </form>
+    <button id="btnNuevo">Nuevo</button>
+    <button id="btnLeer">Leer</button>
+    <button id="btnBorrar">Borrar</button>
+    <script>
+        require('./index.js')
+    </script>
+</body>
+
+</html>
